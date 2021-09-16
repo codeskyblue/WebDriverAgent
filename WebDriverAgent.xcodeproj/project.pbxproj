@@ -308,6 +308,7 @@
 		64B26508228C5514002A5025 /* XCUIElementDouble.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B26507228C5514002A5025 /* XCUIElementDouble.m */; };
 		64B2650A228CE4FF002A5025 /* FBTVNavigationTracker-Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B26509228CE4FF002A5025 /* FBTVNavigationTracker-Private.h */; };
 		64B2650B228CE4FF002A5025 /* FBTVNavigationTracker-Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B26509228CE4FF002A5025 /* FBTVNavigationTracker-Private.h */; };
+		6FFCC48126F0A8CF00C2329E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FFCC48026F0A8CF00C2329E /* Assets.xcassets */; };
 		710C16CD21497A08006EA1D0 /* XCAccessibilityElement+FBComparison.h in Headers */ = {isa = PBXBuildFile; fileRef = 710C16CB21497A08006EA1D0 /* XCAccessibilityElement+FBComparison.h */; };
 		710C16CE21497A08006EA1D0 /* XCAccessibilityElement+FBComparison.m in Sources */ = {isa = PBXBuildFile; fileRef = 710C16CC21497A08006EA1D0 /* XCAccessibilityElement+FBComparison.m */; };
 		711084441DA3AA7500F913D6 /* FBXPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 711084421DA3AA7500F913D6 /* FBXPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -930,6 +931,7 @@
 		64B26506228C54F2002A5025 /* XCUIElementDouble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCUIElementDouble.h; sourceTree = "<group>"; };
 		64B26507228C5514002A5025 /* XCUIElementDouble.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCUIElementDouble.m; sourceTree = "<group>"; };
 		64B26509228CE4FF002A5025 /* FBTVNavigationTracker-Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBTVNavigationTracker-Private.h"; sourceTree = "<group>"; };
+		6FFCC48026F0A8CF00C2329E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		710C16CB21497A08006EA1D0 /* XCAccessibilityElement+FBComparison.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCAccessibilityElement+FBComparison.h"; sourceTree = "<group>"; };
 		710C16CC21497A08006EA1D0 /* XCAccessibilityElement+FBComparison.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XCAccessibilityElement+FBComparison.m"; sourceTree = "<group>"; };
 		711084421DA3AA7500F913D6 /* FBXPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXPath.h; sourceTree = "<group>"; };
@@ -2223,6 +2225,7 @@
 			children = (
 				EE9AB7FC1CAEE048008C271F /* Info.plist */,
 				EE9AB7FD1CAEE048008C271F /* UITestingUITests.m */,
+				6FFCC48026F0A8CF00C2329E /* Assets.xcassets */,
 			);
 			name = WebDriverAgentRunner;
 			path = XCTUITestRunner;
@@ -3035,6 +3038,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FFCC48126F0A8CF00C2329E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4198,6 +4202,7 @@
 			buildSettings = {
 				CLANG_STATIC_ANALYZER_MODE = deep;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = VGBWXXY4P5;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WebDriverAgentRunner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4245,6 +4250,7 @@
 			baseConfigurationReference = EEE5CABF1C80361500CBBDD9 /* IOSSettings.xcconfig */;
 			buildSettings = {
 				CLANG_STATIC_ANALYZER_MODE = deep;
+				DEVELOPMENT_TEAM = VGBWXXY4P5;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WebDriverAgentRunner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
