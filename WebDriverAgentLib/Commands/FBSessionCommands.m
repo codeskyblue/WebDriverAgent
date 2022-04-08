@@ -396,11 +396,15 @@
 + (NSDictionary *)currentCapabilities
 {
   FBApplication *application = [FBSession activeSession].activeApplication;
+  // Do not access application.label
+  // Or XCUITest will call
+  //   "Requesting snapshot of accessibility ..."
+  // Which make it very slowly
   return
   @{
     @"device": ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) ? @"ipad" : @"iphone",
     @"sdkVersion": [[UIDevice currentDevice] systemVersion],
-    @"browserName": application.label ?: [NSNull null],
+//    @"browserName": application.label ?: [NSNull null],
     @"CFBundleIdentifier": application.bundleID ?: [NSNull null],
   };
 }
